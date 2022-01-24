@@ -11,3 +11,9 @@ $ git config --global user.name = "almirmonteiro"
 $ git config --global use.email = "almir.monteiro.junior@gmail.com"
 
 $ git remote add origin git@github.com:almirmonteiro/temp-repo.git
+
+
+$ git add .
+$ git commit -m 'Initial'
+$ git push origin master
+$ git status
