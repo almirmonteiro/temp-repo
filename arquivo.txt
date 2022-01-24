@@ -17,3 +17,15 @@ $ git add .
 $ git commit -m 'Initial'
 $ git push origin master
 $ git status
+
+#Após cada atualização no arquivo, fazer novamente:
+$ git add .
+$ git commit -m 'Adicionando mais comandos no arquivo'
+$ git push origin master -u
+
+# feito mais atualizações, mas como o push anterior foi feito com -u, não precisa mais do master
+$ git add .
+$ git commit -m 'Adicionando mais comandos no arquivo'
+$ git push origin
+
+
