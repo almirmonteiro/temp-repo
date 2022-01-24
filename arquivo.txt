@@ -1,0 +1,13 @@
+# Comandos no git bash
+$ ssh-keygen -t rsa -f "C:\Users\ALMIR\.ssh\github" -C 'almir.monteiro.junior@gmail.com'
+
+$ eval "$(ssh-agent -s)"
+
+$ ssh-add "C:\Users\ALMIR\.ssh\github"
+
+# iniciando o git
+$ git init
+$ git config --global user.name = "almirmonteiro"
+$ git config --global use.email = "almir.monteiro.junior@gmail.com"
+
+$ git remote add origin git@github.com:almirmonteiro/temp-repo.git
