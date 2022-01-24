@@ -1,6 +1,6 @@
 # Comandos no git bash
 $ ssh-keygen -t rsa -f "C:\Users\ALMIR\.ssh\github" -C 'almir.monteiro.junior@gmail.com'
-
+# sempre que sair do git e entrar devem ser executados todos os comandos abaixo.
 $ eval "$(ssh-agent -s)"
 
 $ ssh-add "C:\Users\ALMIR\.ssh\github"
