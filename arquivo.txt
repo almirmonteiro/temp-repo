@@ -28,4 +28,13 @@ $ git add .
 $ git commit -m 'Adicionando mais comandos no arquivo'
 $ git push origin
 
+#quando fechar o git e abir novamente deve-se fazer:
+$ eval "$(ssh-agent -s)"
+
+$ ssh-add "C:\Users\ALMIR\.ssh\github"
+$ git add .
+$ git commit -m 'Comentarios'
+$ git push
+
+
 
